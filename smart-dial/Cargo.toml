@@ -1,0 +1,27 @@
+[package]
+name = "smart-dial"
+version = "1.0.0"
+description = "Weekly reward token selection for MIKO"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "smart_dial"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = "0.31.1"
+
+[build-dependencies]
+solana-sdk = "2.3.0"
+serde_json = "1.0"
+
+[profile.release]
+overflow-checks = true
