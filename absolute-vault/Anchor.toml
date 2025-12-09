@@ -1,3 +1,6 @@
+[programs.mainnet]
+absolute_vault = "7P1yWzTGFTU2ZZuPnmjxQFBEGdE6WfeUQMPz2yZsggqA"
+
 [provider]
-cluster = "localnet"
+cluster = "mainnet"
 wallet = "~/.config/solana/id.json"
