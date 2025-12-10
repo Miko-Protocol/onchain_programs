@@ -1,3 +1,18 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.mainnet]
+smart_dial = "5n2RLAjLj6woa8xtkkz7PfSWD46LLCm9tCYZt3UTKzjz"
+
+[registry]
+url = "https://api.apr.dev"
+
 [provider]
-cluster = "localnet"
-wallet = "~/.config/solana/id.json"
+cluster = "mainnet"
+wallet = "~/git/miko_token/final-deployment/keypairs/deployer-keypair.json"
+
+[workspace]
+members = ["."]
