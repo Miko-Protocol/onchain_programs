@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 
 // Program ID is dynamically generated from keypair at compile time
-declare_id!("5n2RLAjLj6woa8xtkkz7PfSWD46LLCm9tCYZt3UTKzjz");
+declare_id!("423KiBKFusrnh8QGcmj6rE9ntPWH7FzRQCJ5Z5kNeRmp");
 
 pub const DIAL_STATE_SEED: &[u8] = b"dial_state";
 pub const SOL_MINT: Pubkey = pubkey!("So11111111111111111111111111111111111111112");
