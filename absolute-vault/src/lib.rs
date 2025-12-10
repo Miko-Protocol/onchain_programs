@@ -17,7 +17,7 @@ use spl_token_2022::{
 };
 
 // Program ID is dynamically generated from keypair at compile time
-declare_id!("7P1yWzTGFTU2ZZuPnmjxQFBEGdE6WfeUQMPz2yZsggqA");
+declare_id!("7eJ8NmvhSDcmqCP1HhSjuzvAacTWRqyFDjHoQXzHHghS");
 
 pub const VAULT_SEED: &[u8] = b"vault";
 pub const POOL_REGISTRY_SEED: &[u8] = b"pool_registry";
