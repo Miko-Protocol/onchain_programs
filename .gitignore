@@ -1,0 +1,85 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Rust/Anchor
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Build artifacts
+dist/
+build/
+out/
+.anchor/
+.cache/
+test-ledger/
+programs/.anchor/
+
+# IDL files (large generated files)
+*.idl.json
+programs/target/idl/
+programs/target/types/
+
+# Keypairs and secrets (SECURITY)
+*.keypair
+*.keypair.json
+*-keypair.json
+keypairs/
+.env
+.env.local
+.env.*.local
+
+# Docker volumes
+docker/shared-artifacts/*.json
+docker/shared-artifacts/*.ts
+docker/shared-artifacts/*.js
+!docker/shared-artifacts/README.md
+
+# Verification artifacts
+verification/
+scripts/phase*/node_modules/
+scripts/phase*/*.json
+scripts/phase*/*.js
+!scripts/phase*/tsconfig.json
+
+# Logs
+logs/
+*.log
+.log/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Phase-specific builds
+scripts/phase2/node_modules/
+scripts/phase3/node_modules/
+scripts/phase4a/node_modules/
+scripts/phase4b/node_modules/
+scripts/phase4b/phase4b-programs/
+
+# Large test files
+test-results/
+*.test.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Fork data
+fork-data/

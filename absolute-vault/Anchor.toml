@@ -1,6 +1,9 @@
 [programs.mainnet]
-absolute_vault = "7P1yWzTGFTU2ZZuPnmjxQFBEGdE6WfeUQMPz2yZsggqA"
+absolute_vault = "7eJ8NmvhSDcmqCP1HhSjuzvAacTWRqyFDjHoQXzHHghS"
 
 [provider]
 cluster = "mainnet"
-wallet = "~/.config/solana/id.json"
+wallet = "~/git/miko_token/final-deployment/keypairs/deployer-keypair.json"
+
+[features]
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
